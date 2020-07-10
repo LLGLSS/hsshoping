@@ -6,6 +6,7 @@
 </template>
 <script>
 import Goods from '@/components/Home/Goods'
+
 export default {
   components: {
     Goods
@@ -15,6 +16,7 @@ export default {
 <style lang="less" scoped>
 #GoodsShow{
   .goodsTitle{
+    color: #ff852a;
     text-align: center;
     margin-top: 4px;
     padding-bottom: 5px;

@@ -11,11 +11,12 @@ export default {
 <style lang="less" scoped>
 #top{
     height: 40px;
-    background-color: #dae2f9;
+    background-color:#ff852a;
     .header{
         text-align: center;
         line-height: 40px;
         font-weight: bold;
+        color: aliceblue;
     }
 }
 </style>

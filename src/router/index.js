@@ -5,6 +5,7 @@ import Home from '../views/Home.vue'
 import Cart from '../views/Cart.vue'
 import Category from '../views/Category.vue'
 import Me from '../views/Me.vue'
+import Login from '../views/login.vue'
 
 Vue.use(VueRouter)
 
@@ -28,6 +29,11 @@ const routes = [
     path: '/Me',
     name: 'Me',
     component: Me
+  },
+  {
+    path: '/Login',
+    name: 'Login',
+    component: Login
   }
 ]
 

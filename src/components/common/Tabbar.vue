@@ -30,13 +30,18 @@ export default {
   methods: {
     itemClick (path) {
       this.$router.push(path)
+      // if (path === '/') {
+      //   this.$router.push(path)
+      // } else {
+      //   this.$router.push('/Login')
+      // }
     }
   }
 }
 </script>
 <style lang="less" scoped>
 #tab-bar{
-  background-color: rgb(231, 226, 226);
+  background-color: #f6f6f6;
   box-shadow: 0px -1px 7px rgb(100,100,100,0.2);
   height: 49px;
   position: fixed;
